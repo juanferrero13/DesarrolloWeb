@@ -106,11 +106,6 @@ div a {
   margin-top: 25px;
   letter-spacing: 5px;
   text-shadow: 5px 5px 5px #333;
-  animation-duration: 2s;
-  animation-name: aparecer;
-  animation-delay: 5s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
 }
 .main__subtitle {
   font-size: 40px;
@@ -118,11 +113,6 @@ div a {
   margin-bottom: 35px;
   text-align: center;
   text-shadow: 3px 3px 3px #333;
-  animation-duration: 2s;
-  animation-name: aparecer;
-  animation-delay: 5s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
 }
 
 .section__categorias {
@@ -154,10 +144,10 @@ div a {
 .section__categorias1 {
   grid-area: img1;
 }
-.section__categorias1-img{
+.section__categorias1-img {
   transition: transform 0.5s;
 }
-.section__categorias1-img:hover{
+.section__categorias1-img:hover {
   transform: scale(1.03);
 }
 .section__categorias1-p {
@@ -174,10 +164,10 @@ div a {
 .section__categorias2 {
   grid-area: img2;
 }
-.section__categorias2-img{
+.section__categorias2-img {
   transition: transform 0.5s;
 }
-.section__categorias2-img:hover{
+.section__categorias2-img:hover {
   transform: scale(1.03);
 }
 .section__categorias2-p {
@@ -191,16 +181,114 @@ div a {
   color: rgba(210, 105, 30, 80%);
   transition: all 500ms;
 }
-.section__productos__fabricacion h4 {
-  text-align: center;
-  margin-top: 80px;
+
+.section__productos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 130px;
+}
+.section__productos h4 {
   text-transform: uppercase;
-  margin-bottom: 40px;
   font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
 }
-.section__productos__fabricacion-videos {
+.section__productos-productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  text-align: center;
+  justify-items: center;
+  width: 85%;
+  margin: auto;
+}
+.section__productos-productos-1 {
+  width: 250px;
+  height: auto;
+}
+.section__productos-productos-1-img {
+  transition: transform 0.5s;
+}
+.section__productos-productos-1-img:hover {
+  transform: scale(1.05);
+}
+.section__productos-productos-1-title {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 14px;
+}
+.section__productos-productos-1-title:hover {
+  cursor: pointer;
+  color: rgba(210, 105, 30, 80%);
+  transition: all 500ms;
+}
+.section__productos-productos-1-precio {
+  font-weight: bolder;
+  margin-top: 5px;
   text-align: center;
 }
+.section__productos-productos-2 {
+  width: 250px;
+  height: auto;
+}
+.section__productos-productos-2-img {
+  transition: transform 0.5s;
+}
+.section__productos-productos-2-img:hover {
+  transform: scale(1.05);
+}
+.section__productos-productos-2-title {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 14px;
+}
+.section__productos-productos-2-precio {
+  font-weight: bolder;
+  margin-top: 5px;
+  text-align: center;
+}
+.section__productos-productos-3 {
+  width: 250px;
+  height: auto;
+}
+.section__productos-productos-3-img {
+  transition: transform 0.5s;
+}
+.section__productos-productos-3-img:hover {
+  transform: scale(1.05);
+}
+.section__productos__fabricacion-productos-3-title {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 14px;
+}
+.section__productos-productos-3-precio {
+  font-weight: bolder;
+  margin-top: 5px;
+  text-align: center;
+}
+.section__productos-productos-4 {
+  width: 250px;
+  height: auto;
+}
+.section__productos-productos-4-img {
+  transition: transform 0.5s;
+}
+.section__productos-productos-4-img:hover {
+  transform: scale(1.05);
+}
+.section__productos-productos-4-title {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 14px;
+}
+.section__productos-productos-4-precio {
+  font-weight: bolder;
+  margin-top: 5px;
+  text-align: center;
+}
+
 .nosotros h4 {
   text-align: center;
   margin-top: 75px;
