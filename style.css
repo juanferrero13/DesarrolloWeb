@@ -106,6 +106,7 @@ div a {
   margin-top: 25px;
   letter-spacing: 5px;
   text-shadow: 5px 5px 5px #333;
+  display: none;
 }
 .main__subtitle {
   font-size: 40px;
@@ -113,8 +114,88 @@ div a {
   margin-bottom: 35px;
   text-align: center;
   text-shadow: 3px 3px 3px #333;
+  display: none;
 }
-
+.main__envios-pagos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: auto;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+.main__envios-pagos-1 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "img card1"
+    "img card2";
+  width: 65%;
+  margin: auto;
+  align-items: center;
+}
+.main__envios-pagos-1 i {
+  grid-area: img;
+  font-size: 25px;
+}
+.main__envios-pagos-1-p1 {
+  grid-area: card1;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.main__envios-pagos-1-p2 {
+  grid-area: card2;
+  text-transform: capitalize;
+}
+.main__envios-pagos-2 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "img card1"
+    "img card2";
+  width: 65%;
+  margin: auto;
+  align-items: center;
+}
+.main__envios-pagos-2 i {
+  grid-area: img;
+  font-size: 30px;
+}
+.main__envios-pagos-2-p1 {
+  grid-area: card1;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.main__envios-pagos-2-p2 {
+  grid-area: card2;
+  text-transform: capitalize;
+}
+.main__envios-pagos-3 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "img card1"
+    "img card2";
+  width: 65%;
+  margin: auto;
+  align-items: center;
+}
+.main__envios-pagos-3 i {
+  grid-area: img;
+  font-size: 30px;
+}
+.main__envios-pagos-3-p1 {
+  grid-area: card1;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.main__envios-pagos-3-p2 {
+  grid-area: card2;
+  text-transform: capitalize;
+}
 .section__categorias {
   background-color: rgba(128, 128, 128, 15%);
   background-image: linear-gradient(
@@ -296,18 +377,31 @@ div a {
   text-transform: uppercase;
   margin-bottom: 25px;
 }
-.main__nosotros {
+.nosotros__box {
   display: flex;
   font-size: 20px;
   width: 90%;
   margin: auto;
   gap: 15px;
 }
-.main__nosotros p {
+.nosotros__box1 {
+  border: #333 2px solid;
+  border-radius: 5px;
+  padding: 20px;
+  background-image: url(./multimedia/marco.png);
+  background-size: cover;
+  background-position: center center;
+  width: 90%;
+  height: auto;
+}
+.nosotros__box1-h5{
   text-transform: uppercase;
-  font-weight: bolder;
+  margin-bottom: 10px;
 }
-.main__nosotros1 {
+.nosotros__box1-p{
+  font-size: 18px;
+}
+.nosotros__box2 {
   border: #333 2px solid;
   border-radius: 5px;
   padding: 20px;
@@ -317,7 +411,14 @@ div a {
   width: 90%;
   height: auto;
 }
-.main__nosotros2 {
+.nosotros__box2-h5{
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.nosotros__box2-p{
+  font-size: 18px;
+}
+.nosotros__box3 {
   border: #333 2px solid;
   border-radius: 5px;
   padding: 20px;
@@ -327,15 +428,12 @@ div a {
   width: 90%;
   height: auto;
 }
-.main__nosotros3 {
-  border: #333 2px solid;
-  border-radius: 5px;
-  padding: 20px;
-  background-image: url(./multimedia/marco.png);
-  background-size: cover;
-  background-position: center center;
-  width: 90%;
-  height: auto;
+.nosotros__box3-h5{
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.nosotros__box3-p{
+  font-size: 18px;
 }
 .footer {
   height: 450px;
