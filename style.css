@@ -95,6 +95,9 @@ div a {
   bottom: 20px;
   left: 20px;
 }
+.whatsapp:hover {
+  cursor: pointer;
+}
 .main__img {
   width: 100%;
   height: auto;
@@ -394,11 +397,11 @@ div a {
   width: 90%;
   height: auto;
 }
-.nosotros__box1-h5{
+.nosotros__box1-h5 {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.nosotros__box1-p{
+.nosotros__box1-p {
   font-size: 18px;
 }
 .nosotros__box2 {
@@ -411,11 +414,11 @@ div a {
   width: 90%;
   height: auto;
 }
-.nosotros__box2-h5{
+.nosotros__box2-h5 {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.nosotros__box2-p{
+.nosotros__box2-p {
   font-size: 18px;
 }
 .nosotros__box3 {
@@ -428,54 +431,143 @@ div a {
   width: 90%;
   height: auto;
 }
-.nosotros__box3-h5{
+.nosotros__box3-h5 {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.nosotros__box3-p{
+.nosotros__box3-p {
   font-size: 18px;
 }
+.prefooter {
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "img1 img2"
+    "img1 img3";
+  gap: 25px;
+  width: 70%;
+  margin: auto;
+  margin-top: 75px;
+}
+.prefooter1 {
+  background-image: url(./multimedia/cuchilleriaguaschesca2.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img1;
+}
+.prefooter2 {
+  background-image: url(./multimedia/cuchilleriagauschesca.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img2;
+}
+.prefooter3 {
+  background-image: url(./multimedia/cuchilleriaguaschesca3.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img3;
+}
+
 .footer {
   height: 450px;
   margin-top: 80px;
   background: #252525;
+  display: grid;
 }
-.header__logo__footer {
-  padding-left: 15px;
+.footer__elementos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 85%;
+  margin: auto;
 }
-.footer span {
+.footer__subtitles1 {
+  margin-top: 35px;
+}
+.footer__subtitles1-title {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 15px;
   text-transform: uppercase;
-  color: chocolate;
 }
-.footer p {
+.footer__subtitles1-title-sub1 {
+  color: rgba(255, 255, 255, 80%);
+  line-height: 30px;
+}
+.footer__subtitles1-title-sub1:hover {
+  cursor: pointer;
+  color: #f0990c;
+  transition: all 500ms;
+}
+.footer__subtitles1-title-sub2 {
+  color: rgba(255, 255, 255, 80%);
+}
+.footer__subtitles1-title-sub2:hover {
+  cursor: pointer;
+  color: #f0990c;
+  transition: all 500ms;
+}
+.footer__subtitles2 {
+  margin-top: 35px;
+}
+.footer__subtitles2-title {
   color: white;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: uppercase;
 }
-
-.footer__subtitles {
+.footer__subtitles2-title-sub1 {
+  color: rgba(255, 255, 255, 80%);
+  line-height: 30px;
+}
+.footer__subtitles2-title-sub1:hover {
+  color: #f0990c;
+  transition: all 500ms;
+}
+.footer__subtitles2-title-sub2 {
+  color: rgba(255, 255, 255, 80%);
+}
+.footer__subtitles2-title-sub2:hover {
+  color: #f0990c;
+  transition: all 500ms;
+}
+.footer__subtitles3 {
+  margin-top: 35px;
+}
+.footer__subtitles3-title {
   color: white;
-  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: uppercase;
 }
-.footer__subtitles__ul {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 150px;
-  gap: 65px;
-  list-style: none;
-  padding-bottom: 50px;
+.footer__subtitles3-title-sub1 {
+  color: rgba(255, 255, 255, 80%);
+  line-height: 30px;
 }
-.footer__subtitles__li {
-  font-size: 20px;
+.footer__subtitles3-title-sub2 {
+  color: rgba(255, 255, 255, 80%);
+  line-height: 30px;
+}
+.footer__subtitles3-title-sub3 {
+  color: rgba(255, 255, 255, 80%);
+  line-height: 30px;
 }
 .footer__redessociales {
   color: white;
-  font-size: 40px;
-  padding-left: 20px;
-  letter-spacing: 5px;
+  font-size: 30px;
+  display: flex;
+  gap: 25px;
+  margin-left: 105px;
 }
-
 .footer__copyright {
   text-align: center;
-  padding-top: 150px;
+  color: white;
+  margin-top: 45px;
+}
+.footer__copyright span {
+  color: #f0990c;
+  text-transform: uppercase;
 }
 
 .subir {
@@ -626,6 +718,7 @@ div a {
 .main__contacto__title-p {
   padding-left: 15px;
   color: rgba(51, 51, 51, 0.753);
+  line-height: 25px;
 }
 .main__contacto__title-redes {
   letter-spacing: 8px;
@@ -647,11 +740,3 @@ div a {
     opacity: 1;
   }
 }
-
-/* text-transform: uppercase;
-text-align: center;
-margin-top: 10px;
-font-size: 20px;
-height: 22px;
-font-weight: 400;
-subtitulo categoria */
