@@ -327,6 +327,11 @@ div a {
   text-align: center;
   font-size: 14px;
 }
+.section__productos-productos-2-title:hover {
+  cursor: pointer;
+  color: rgba(210, 105, 30, 80%);
+  transition: all 500ms;
+}
 .section__productos-productos-2-precio {
   font-weight: bolder;
   margin-top: 5px;
@@ -342,10 +347,15 @@ div a {
 .section__productos-productos-3-img:hover {
   transform: scale(1.05);
 }
-.section__productos__fabricacion-productos-3-title {
+.section__productos-productos-3-title {
   text-transform: capitalize;
   text-align: center;
   font-size: 14px;
+}
+.section__productos-productos-3-title:hover {
+  cursor: pointer;
+  color: rgba(210, 105, 30, 80%);
+  transition: all 500ms;
 }
 .section__productos-productos-3-precio {
   font-weight: bolder;
@@ -366,6 +376,11 @@ div a {
   text-transform: capitalize;
   text-align: center;
   font-size: 14px;
+}
+.section__productos-productos-4-title:hover {
+  cursor: pointer;
+  color: rgba(210, 105, 30, 80%);
+  transition: all 500ms;
 }
 .section__productos-productos-4-precio {
   font-weight: bolder;
@@ -393,7 +408,8 @@ div a {
   padding: 20px;
   background-image: url(./multimedia/marco.png);
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+  box-shadow: 5px 5px 5px black;
   width: 90%;
   height: auto;
 }
@@ -410,7 +426,8 @@ div a {
   padding: 20px;
   background-image: url(./multimedia/marco.png);
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+  box-shadow: 5px 5px 5px black;
   width: 90%;
   height: auto;
 }
@@ -427,7 +444,8 @@ div a {
   padding: 20px;
   background-image: url(./multimedia/marco.png);
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+  box-shadow: 5px 5px 5px black;
   width: 90%;
   height: auto;
 }
