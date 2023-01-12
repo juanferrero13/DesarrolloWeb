@@ -724,10 +724,10 @@ html {
 
 .main__contacto {
   background-color: white;
-  height: 700px;
   text-align: start;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 .main__contacto__form {
   padding-top: 80px;
@@ -760,11 +760,12 @@ html {
   box-shadow: 0 2px 2px rgb(221, 221, 221);
 }
 .enviar {
-  width: 20%;
   background-color: #c59e5e;
   text-transform: uppercase;
   color: white;
   font-weight: 500;
+  margin-top: 50px;
+  width: 20%;
 }
 .enviar:hover {
   background-color: #f0990c;
@@ -772,14 +773,16 @@ html {
   transition: all 500ms;
 }
 .mapa {
-  margin-top: 75px;
   text-align: center;
-  margin-top: 15rem;
+  margin-top: 5rem;
 }
 .main__contacto__title {
   display: flex;
   flex-direction: column;
   padding-top: 35px;
+}
+.main__contacto__title-logo {
+  width: 12rem;
 }
 .main__contacto__title-h2 {
   text-transform: uppercase;
@@ -803,12 +806,21 @@ html {
 /* Fin estilos contacto */
 
 @media screen and (max-width: 1200px) {
+  /* Inicio index */
   .main__envios-pagos {
     width: 100%;
   }
+  /* Fin index */
+
+  /* Inicio contacto */
+  .enviar {
+    width: 22%;
+  }
+  /* Fin contacto */
 }
 
 @media screen and (max-width: 1024px) {
+  /* Inicio index */
   .main__envios-pagos {
     width: 100%;
     font-size: 15px;
@@ -877,9 +889,17 @@ html {
   .nosotros__box3 {
     padding: 25px;
   }
+  /* Fin index */
+
+  /* Inicio contacto */
+  .enviar {
+    width: 25%;
+  }
+  /* Fin contacto */
 }
 
 @media screen and (max-width: 992px) {
+  /* Inicio index */
   .section__productos-productos {
     width: 100%;
     padding: 0;
@@ -927,9 +947,11 @@ html {
   .nosotros__box3-p {
     font-size: 16px;
   }
+  /* Fin index */
 }
 
 @media screen and (max-width: 980px) {
+  /* Inicio index */
   .section__productos-productos {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -937,27 +959,47 @@ html {
   .section__productos-productos-1-title {
     font-size: 16px;
   }
+  /* Fin index */
+
+  /* Inicio contacto */
+  .enviar {
+    width: 26%;
+  }
+  /* Fin contacto */
 }
 
 @media screen and (max-width: 950px) {
+  /* Inicio index */
   .footer__elementos {
     width: 90%;
   }
+  /* Fin index */
 }
 
 @media screen and (max-width: 928px) {
+  /* Inicio index */
   .main__envios-pagos {
     font-size: 14px;
   }
+  /* Fin index */
+
+  /* Inicio contacto */
+  .enviar {
+    width: 28%;
+  }
+  /* Fin contacto */
 }
 
 @media screen and (max-width: 900px) {
+  /* Inicio index */
   .footer__elementos {
     justify-items: center;
   }
+  /* Fin index */
 }
 
 @media screen and (max-width: 868px) {
+  /* Inicio index */
   .main__envios-pagos-1 {
     width: 70%;
   }
@@ -1020,9 +1062,17 @@ html {
   .nosotros__box3 {
     padding: 25px 40px;
   }
+  /* Fin index */
+
+  /* Inicio contacto */
+  .enviar {
+    width: 30%;
+  }
+  /* Fin contacto */
 }
 
 @media screen and (max-width: 810px) {
+  /* Inicio index */
   .footer__elementos {
     justify-items: normal;
   }
@@ -1035,8 +1085,16 @@ html {
   .main__envios-pagos-3 {
     width: 80%;
   }
+  /* Fin index */
+
+  /* Inicio contacto */
+  .enviar {
+    width: 32%;
+  }
+  /* Fin contacto */
 }
 @media screen and (max-width: 705px) {
+  /* Inicio index */
   .main__envios-pagos-1 {
     width: 85%;
   }
@@ -1046,8 +1104,16 @@ html {
   .main__envios-pagos-3 {
     width: 85%;
   }
+  /* Fin index */
+
+  /* Inicio contacto */
+  .enviar {
+    width: 35%;
+  }
+  /* Fin contacto */
 }
 @media screen and (max-width: 665px) {
+  /* Inicio index */
   .footer__elementos {
     width: 95%;
   }
@@ -1063,8 +1129,27 @@ html {
   .nosotros__box {
     width: 100%;
   }
+  /* Fin index */
+
+  /* Inicio contacto */
+  .main__contacto {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.3fr 1fr;
+  }
+  .main__contacto__title {
+    padding-top: 20px;
+    margin-left: 58px;
+  }
+  .enviar {
+    width: 22%;
+  }
+  .mapa {
+    margin-top: 0;
+  }
+  /* Fin contacto */
 }
 @media screen and (max-width: 632px) {
+  /* Inicio index */
   .main__envios-pagos-1 {
     width: 100%;
   }
@@ -1077,9 +1162,11 @@ html {
   .prefooter {
     width: 85%;
   }
+  /* Fin index */
 }
 
 @media screen and (max-width: 590px) {
+  /* Inicio index */
   .footer__elementos {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 1fr 1fr;
@@ -1092,9 +1179,17 @@ html {
   .nosotros__box {
     width: 100%;
   }
+  /* Fin index */
+
+  /* Inicio contacto */
+  .main__contacto__title {
+    margin-left: 50px;
+  }
+  /* Fin contacto */
 }
 
 @media screen and (max-width: 550px) {
+  /* Inicio index */
   .main__envios-pagos {
     width: 40%;
   }
@@ -1108,16 +1203,32 @@ html {
   .footer__redessociales {
     margin-left: 25px;
   }
+  /* Fin index */
+
+  /* Inicio contacto */
+  .main__contacto__title {
+    margin-left: 45px;
+  }
+  /* Fin contacto */
 }
 @media screen and (max-width: 500px) {
+  /* Inicio index */
   .prefooter {
     width: 95%;
   }
   .nosotros__box {
     width: 100%;
   }
+  /* Fin index */
+
+  /* Inicio contacto */
+  .enviar {
+    width: 25%;
+  }
+  /* Fin contacto */
 }
 @media screen and (max-width: 480px) {
+  /* Inicio index */
   .section__productos-productos {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
@@ -1135,9 +1246,11 @@ html {
   .main__envios-pagos {
     width: 45%;
   }
+  /* Fin index */
 }
 
 @media screen and (max-width: 420px) {
+  /* Inicio index */
   .main__envios-pagos {
     width: 50%;
   }
@@ -1177,14 +1290,33 @@ html {
     max-height: 400px;
     min-height: 400px;
   }
+  /* Fin index */
+
+  /* Inicio contacto */
+  .main__contacto__form h1 {
+    width: 90%;
+  }
+  .main__contacto__form form {
+    width: 90%;
+  }
+  .main__contacto__title {
+    margin-left: 12px;
+  }
+  .enviar {
+    width: 30%;
+  }
+  /* Fin contacto */
 }
 
 @media screen and (max-width: 412px) {
+  /* Inicio index */
   .aside__nosotros2 {
     gap: 20px;
   }
+  /* Fin index */
 }
 @media screen and (max-width: 380px) {
+  /* Inicio index */
   .prefooter1 {
     max-height: 360px;
     min-height: 360px;
@@ -1203,8 +1335,16 @@ html {
   .footer__redessociales {
     margin-left: 15px;
   }
+  /* Fin index */
+
+  /* Inicio contacto */
+  .main__contacto__title {
+    margin-left: 1px;
+  }
+  /* Fin contacto */
 }
 @media screen and (max-width: 320px) {
+  /* Inicio index */
   .main__envios-pagos {
     width: 60%;
   }
@@ -1214,7 +1354,9 @@ html {
   .section__categorias2-img {
     width: 18rem;
   }
+  /* Fin index */
 }
+
 @keyframes aparecer {
   0% {
     opacity: 0;
