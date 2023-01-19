@@ -651,49 +651,53 @@ html {
 
 /* Inicio estilos nosotros */
 
-.container h1 {
-  font-size: 2rem;
+.main__sobrenosotros {
+  background-color: white;
 }
-.container__span {
-  font-weight: 550;
+
+.main__sobrenosotros h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding: 40px 0;
 }
-#container__nosotros1 {
-  z-index: -1;
+
+.main__sobrenosotros1 {
+  text-transform: capitalize;
+  padding-bottom: 25px;
 }
-#container__nosotros2 {
-  z-index: -1;
+.main__sobrenosotros2 {
+  text-transform: capitalize;
+  padding-bottom: 25px;
 }
+.main__sobrenosotros3 {
+  text-transform: capitalize;
+  padding-bottom: 25px;
+}
+
 /* Fin estilos nosotros */
 
 /* Inicio estilos cuchillos */
-
-.cuchillos__title {
+.cuchilleria__title {
+  margin-top: 80px;
   text-transform: uppercase;
-  font-size: 30px;
-  font-weight: 700;
   text-align: center;
-  width: 25%;
+  font-size: 45px;
+  font-weight: 700;
 }
-#aside__cuchillos{
-  display: flex;
-  flex-direction: column;
-  gap: 100px;
-  z-index: -1;
-  align-items: center;
-}
-#container__cuchillos{
+.main__productos {
   display: flex;
   flex-wrap: wrap;
-  gap: 35px;
-  z-index: -1;
+  background-color: white;
+  gap: 25px;
   justify-content: center;
 }
 .main__productos__cuchillos {
-  width: 250px;
+  width: 300px;
   height: auto;
 }
 .main__productos__cuchillos img {
-  width: 15rem;
+  width: 19rem;
 }
 .main__productos__cuchillos-title {
   text-transform: capitalize;
@@ -801,14 +805,6 @@ html {
 
 /* Fin estilos contacto */
 
-@media screen and (max-width: 1275px) {
-  /* Inicio cuchillos */
-  .cuchillos__title{
-    width: 43%;
-  }
-  /* Fin cuchillos */
-}
-
 @media screen and (max-width: 1200px) {
   /* Inicio index */
   .main__envios-pagos {
@@ -893,7 +889,7 @@ html {
   .nosotros__box3 {
     padding: 25px;
   }
-  .footer__elementos {
+  .footer__elementos{
     width: 90%;
   }
   /* Fin index */
@@ -1002,7 +998,7 @@ html {
   .footer__elementos {
     justify-items: center;
   }
-  .footer__elementos {
+  .footer__elementos{
     width: 100%;
   }
   /* Fin index */
@@ -1074,12 +1070,6 @@ html {
   }
   /* Fin index */
 
-  /* Inicio cuchillos */
-  .cuchillos__title{
-    width: 65%;
-  }
-  /* Fin cuchillos */
-
   /* Inicio contacto */
   .enviar {
     width: 30%;
@@ -1109,15 +1099,6 @@ html {
   }
   /* Fin contacto */
 }
-
-@media screen and (max-width: 768px) {
-  /* Inicio cuchillos */
-  .cuchillos__title{
-    width: 100%;
-  }
-  /* Fin cuchillos */
-}
-
 @media screen and (max-width: 705px) {
   /* Inicio index */
   .main__envios-pagos-1 {
