@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+}
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+.fa-brands:hover {
+    color: $hoverColor2;
+    cursor: pointer;
+    transition: all 500ms;
+}
+.subir {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #d2691e4d;
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+
+    &:hover{
+        background-color: #b1622a;
+        color: white;
+    }
+}

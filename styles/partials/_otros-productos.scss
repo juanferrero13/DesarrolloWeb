@@ -1,0 +1,394 @@
+.otrosproductos{
+
+    h2{
+        margin-top: 50px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+    }
+    .mates {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+
+        .mates-1 {
+            width: 250px;
+
+            img{
+                width: 16rem;
+            }
+            .mates-1-title {
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .mates-1-precio {
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .mates-2 {
+            width: 250px;
+
+            img{
+                width: 16rem;
+            }
+            .mates-2-title {
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .mates-2-precio {
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .mates-3 {
+            width: 250px;
+            
+            img{
+                width: 16rem;
+            }
+            .mates-3-title {
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .mates-3-precio {
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .mates-4 {
+            width: 250px;
+            
+            img{
+                width: 16rem;
+            }
+            .mates-4-title {
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .mates-4-precio {
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .mates-5 {
+            width: 250px;
+            
+            img{
+                width: 16rem;
+            }
+            .mates-5-title {
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .mates-5-precio {
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .mates-6 {
+            width: 250px;
+            
+            img{
+                width: 16rem;
+            }
+            .mates-6-title {
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .mates-6-precio {
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+    }
+    .tablas__title{
+        margin-top: 100px;
+    }    
+    .tablas{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+
+        .tablas-1{
+            width: 250px;
+
+            img{
+                width: 16rem;
+            }
+            .tablas-1-title{
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .tablas-1-precio{
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .tablas-2{
+            width: 250px;
+
+            img{
+                width: 16rem;
+            }
+            .tablas-2-title{
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .tablas-2-precio{
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .tablas-3{
+            width: 250px;
+
+            img{
+                width: 16rem;
+            }
+            .tablas-3-title{
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .tablas-3-precio{
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .tablas-4{
+            width: 250px;
+
+            img{
+                width: 16rem;
+            }
+            .tablas-4-title{
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .tablas-4-precio{
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .tablas-5{
+            width: 250px;
+
+            img{
+                width: 16rem;
+            }
+            .tablas-5-title{
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .tablas-5-precio{
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .tablas-6{
+            width: 250px;
+
+            img{
+                width: 16rem;
+            }
+            .tablas-6-title{
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .tablas-6-precio{
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+    }
+    .accesorios__title{
+        margin-top: 100px;
+    }
+    .accesorios{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+
+        .accesorios-1{
+            width: 250px;
+
+            img{
+                width: 16rem;
+            }
+            .accesorios-1-title{
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .accesorios-1-precio{
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .accesorios-2{
+            width: 250px;
+
+            img{
+                width: 16rem;
+            }
+            .accesorios-2-title{
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .accesorios-2-precio{
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .accesorios-3{
+            width: 250px;
+
+            img{
+                width: 16rem;
+            }
+            .accesorios-3-title{
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .accesorios-3-precio{
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .accesorios-4{
+            width: 250px;
+
+            img{
+                width: 16rem;
+            }
+            .accesorios-4-title{
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .accesorios-4-precio{
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+        .accesorios-5{
+            width: 250px;
+
+            img{
+                width: 16rem;
+            }
+            .accesorios-5-title{
+                text-transform: capitalize;
+                text-align: center;
+
+                &:hover{
+                    cursor: pointer;
+                    color: $hoverColor1;
+                    transition: all 500ms;
+                }
+            }
+            .accesorios-5-precio{
+                font-weight: bolder;
+                text-align: center;
+            }
+        }
+    }
+}
+

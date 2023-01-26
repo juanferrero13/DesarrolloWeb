@@ -1,0 +1,150 @@
+.main__contacto {
+    background-color: white;
+    text-align: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    @include mediaquery-13{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.3fr 1fr;
+    }
+
+    .main__contacto__form {
+        padding-top: 80px;
+
+        h1{
+            font-size: 30px;
+            text-transform: uppercase;
+            padding-bottom: 25px;
+            width: 80%;
+            margin: auto;
+            font-weight: 500;
+
+            @include mediaquery-19{
+                width: 90%;
+            }
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            width: 80%;
+            margin: auto;
+
+            @include mediaquery-19{
+                width: 90%;
+            }
+
+            input{
+                border-radius: 15px;
+                padding: 12px;
+                border: rgba(51, 51, 51, 0.178) solid 1px;
+                box-shadow: 0 2px 2px rgb(221, 221, 221);
+            }
+            textarea{
+                border-radius: 15px;
+                padding: 12px;
+                border: rgba(51, 51, 51, 0.178) solid 1px;
+                box-shadow: 0 2px 2px rgb(221, 221, 221);
+            }
+            .enviar {
+                background-color: #c59e5e;
+                text-transform: uppercase;
+                color: white;
+                font-weight: 500;
+                margin-top: 50px;
+                width: 20%;
+
+                @include mediaquery-2{
+                    width: 22%;
+                }
+                @include mediaquery-4{
+                    width: 25%;
+                }
+                @include mediaquery-6{
+                    width: 26%;
+                } 
+                @include mediaquery-8{
+                    width: 28%;
+                }
+                @include mediaquery-9{
+                    width: 30%;
+                }
+                @include mediaquery-10{
+                    width: 32%;
+                }
+                @include mediaquery-12{
+                    width: 35%;
+                }
+                @include mediaquery-13{
+                    width: 22%;
+                }
+                @include mediaquery-17{
+                    width: 25%;
+                }
+                @include mediaquery-19{
+                    width: 30%;
+                }
+
+                &:hover{
+                    background-color: $hoverColor2;
+                    cursor: pointer;
+                    transition: all 500ms;
+                }
+            }
+        }
+    }
+    .main__contacto__title {
+        display: flex;
+        flex-direction: column;
+        padding-top: 35px;
+
+        @include mediaquery-13{
+            padding-top: 20px;
+            margin-left: 58px;
+        }
+        @include mediaquery-15{
+            margin-left: 50px;
+        }
+        @include mediaquery-16{
+            margin-left: 45px;
+        }
+        @include mediaquery-19{
+            margin-left: 12px;
+        }
+        @include mediaquery-21{
+            margin-left: 1px;
+        }
+
+        .main__contacto__title-logo {
+            width: 12rem;
+        }
+        .main__contacto__title-h2 {
+            text-transform: uppercase;
+            padding: 20px 10px;
+        }
+        .main__contacto__title-p {
+            padding-left: 15px;
+            color: rgba(51, 51, 51, 0.753);
+            line-height: 25px;
+        }
+    }
+    .main__contacto__title-redes {
+        letter-spacing: 8px;
+        font-size: 25px;
+        border-top: rgba(51, 51, 51, 0.075) 2px groove;
+        width: 70%;
+        margin: 50px 0 0 12px;
+        padding-top: 25px;
+        color: rgba(51, 51, 51, 0.753);
+    }
+}
+.mapa {
+    text-align: center;
+    margin-top: 5rem;
+
+    @include mediaquery-13{
+        margin-top: 0;
+    }
+}

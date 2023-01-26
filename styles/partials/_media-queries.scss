@@ -1,0 +1,106 @@
+@mixin mediaquery-1 {
+    @media screen and (max-width: 1250px) {
+        @content;
+    }
+}@mixin mediaquery-2 {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}@mixin mediaquery-3 {
+    @media screen and (max-width: 1170px) {
+        @content;
+    }
+}@mixin mediaquery-4 {
+    @media screen and (max-width: 1024px) {
+        @content;
+    }
+}@mixin mediaquery-5 {
+    @media screen and (max-width: 992px) {
+        @content;
+    }
+}@mixin mediaquery-6 {
+    @media screen and (max-width: 980px) {
+        @content;
+    }
+}
+@mixin mediaquery-7 {
+    @media screen and (max-width: 950px) {
+        @content;
+    }
+}
+@mixin mediaquery-8 {
+    @media screen and (max-width: 928px) {
+        @content;
+    }
+}
+@mixin mediaquery-9 {
+    @media screen and (max-width: 868px) {
+        @content;
+    }
+}
+@mixin mediaquery-10 {
+    @media screen and (max-width: 810px) {
+        @content;
+    }
+}
+@mixin mediaquery-11 {
+    @media screen and (max-width: 760px) {
+        @content;
+    }
+}
+@mixin mediaquery-12 {
+    @media screen and (max-width: 705px) {
+        @content;
+    }
+}
+@mixin mediaquery-13 {
+    @media screen and (max-width: 665px) {
+        @content;
+    }
+}
+@mixin mediaquery-14 {
+    @media screen and (max-width: 632px) {
+        @content;
+    }
+}
+@mixin mediaquery-15 {
+    @media screen and (max-width: 590px) {
+        @content;
+    }
+}
+@mixin mediaquery-16 {
+    @media screen and (max-width: 550px) {
+        @content;
+    }
+}
+@mixin mediaquery-17 {
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
+@mixin mediaquery-18 {
+    @media screen and (max-width: 480px) {
+        @content;
+    }
+}
+@mixin mediaquery-19 {
+    @media screen and (max-width: 420px) {
+        @content;
+    }
+}
+@mixin mediaquery-20 {
+    @media screen and (max-width: 412px) {
+        @content;
+    }
+}
+@mixin mediaquery-21 {
+    @media screen and (max-width: 380px) {
+        @content;
+    }
+}
+@mixin mediaquery-22 {
+    @media screen and (max-width: 320px) {
+        @content;
+    }
+}
+

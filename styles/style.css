@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -14,107 +13,130 @@ html {
 /* Inicio estilos index */
 .header {
   height: auto;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: white;
   border-bottom: inset 2px rgba(0, 0, 0, 0.075);
+  z-index: 1;
 }
 
 .logo {
   height: 4rem;
 }
+
 .navbar {
-  padding: 0.5rem 5rem;
+  padding: 0.5rem 1rem;
 }
+
 .nav-link {
   font-weight: 500;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
-  color: rgba(210, 105, 30, 80%);
+  color: #d2691ecc;
   transition: all 500ms;
 }
+
 .navbar-nav {
   width: 100%;
   display: flex;
   justify-content: center;
   gap: 3rem;
 }
+
 .aside__nosotros {
   display: flex;
   justify-content: space-between;
   padding: 10px 35px;
   text-transform: uppercase;
-  border-bottom: 1px solid rgba(51, 51, 51, 20%);
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
   font-size: 12px;
 }
+
 .aside__nosotros1 p {
   margin-bottom: 0;
 }
+
 .aside__nosotros1:hover {
   cursor: pointer;
-  color: rgba(210, 105, 30, 80%);
+  color: rgba(210, 105, 30, 0.8);
   transition: all 500ms;
 }
+
 .aside__nosotros2 {
   display: flex;
   gap: 35px;
 }
+
 .aside__nosotros2-p1 {
   margin-bottom: 0;
 }
+
 .aside__nosotros2-p2 {
   margin-bottom: 0;
 }
+
 .aside__nosotros2-p3 {
   margin-bottom: 0;
 }
+
 .aside__nosotros2-p1:hover {
   cursor: pointer;
-  color: rgba(210, 105, 30, 80%);
+  color: rgba(210, 105, 30, 0.8);
   transition: all 500ms;
 }
+
 .aside__nosotros2-p2:hover {
   cursor: pointer;
-  color: rgba(210, 105, 30, 80%);
+  color: rgba(210, 105, 30, 0.8);
   transition: all 500ms;
 }
+
 .aside__nosotros2-p3:hover {
   cursor: pointer;
-  color: rgba(210, 105, 30, 80%);
+  color: rgba(210, 105, 30, 0.8);
   transition: all 500ms;
 }
+
 .whatsapp {
   position: fixed;
   bottom: 20px;
   left: 20px;
 }
+
 .whatsapp:hover {
   cursor: pointer;
 }
+
 .main__img {
   width: 100%;
   height: auto;
 }
+
 .main__img2 {
   display: none;
 }
+
 .main__title {
   font-size: 60px;
-  color: rgba(210, 105, 30, 80%);
+  font-weight: 600;
+  color: rgba(210, 105, 30, 0.8);
   text-align: center;
   margin-top: 25px;
   letter-spacing: 5px;
   text-shadow: 5px 5px 5px #333;
-  display: none;
 }
+
 .main__subtitle {
   font-size: 40px;
-  color: rgba(210, 105, 30, 80%);
+  font-weight: 600;
+  color: rgba(210, 105, 30, 0.8);
   margin-bottom: 35px;
   text-align: center;
   text-shadow: 3px 3px 3px #333;
-  display: none;
 }
+
 .main__envios-pagos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -122,106 +144,108 @@ html {
   margin-top: 65px;
   margin-bottom: 65px;
 }
+
 .main__envios-pagos-1 {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "img card1"
-    "img card2";
+  grid-template-areas: "img card1" "img card2";
   width: 65%;
   margin: auto;
   align-items: center;
 }
+
 .main__envios-pagos-1 i {
   grid-area: img;
   font-size: 25px;
 }
+
 .main__envios-pagos-1-p1 {
   grid-area: card1;
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 0;
 }
+
 .main__envios-pagos-1-p2 {
   grid-area: card2;
   text-transform: capitalize;
   margin-bottom: 0;
 }
+
 .main__envios-pagos-2 {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "img card1"
-    "img card2";
+  grid-template-areas: "img card1" "img card2";
+  align-items: center;
   width: 65%;
   margin: auto;
-  align-items: center;
 }
+
 .main__envios-pagos-2 i {
   grid-area: img;
   font-size: 30px;
 }
+
 .main__envios-pagos-2-p1 {
   grid-area: card1;
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 0;
 }
+
 .main__envios-pagos-2-p2 {
   grid-area: card2;
   text-transform: capitalize;
   margin-bottom: 0;
 }
+
 .main__envios-pagos-3 {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "img card1"
-    "img card2";
+  grid-template-areas: "img card1" "img card2";
   width: 65%;
   margin: auto;
   align-items: center;
 }
+
 .main__envios-pagos-3 i {
   grid-area: img;
   font-size: 30px;
 }
+
 .main__envios-pagos-3-p1 {
   grid-area: card1;
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 0;
 }
+
 .main__envios-pagos-3-p2 {
   grid-area: card2;
   text-transform: capitalize;
   margin-bottom: 0;
 }
+
 .section__categorias {
-  background-color: rgba(128, 128, 128, 15%);
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
-    ),
-    url(./multimedia/fondocaballo.jpg);
+  background-color: rgba(128, 128, 128, 0.15);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../multimedia/fondocaballo.jpg);
   background-position: center;
   background-size: cover;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 3fr;
-  grid-template-areas:
-    "titulo titulo"
-    "img1 img2";
+  grid-template-areas: "titulo titulo" "img1 img2";
   justify-items: center;
 }
+
 .section__categorias a {
   text-decoration: none;
 }
+
 .section__categorias__title {
   font-size: 30px;
   color: rgb(51, 51, 51);
@@ -232,17 +256,22 @@ html {
   font-weight: 700;
   line-height: 0;
 }
+
 .section__categorias1 {
   grid-area: img1;
 }
+
 .section__categorias1-img {
   transition: transform 0.5s;
   width: 27rem;
+  -o-object-fit: cover;
   object-fit: cover;
 }
+
 .section__categorias1-img:hover {
   transform: scale(1.03);
 }
+
 .section__categorias1-p {
   text-align: center;
   color: rgb(51, 51, 51);
@@ -252,29 +281,35 @@ html {
 
 .section__categorias1-p:hover {
   cursor: pointer;
-  color: rgba(210, 105, 30, 80%);
+  color: rgba(210, 105, 30, 0.8);
   transition: all 500ms;
 }
+
 .section__categorias2 {
   grid-area: img2;
 }
+
 .section__categorias2-img {
   transition: transform 0.5s;
   width: 27rem;
+  -o-object-fit: cover;
   object-fit: cover;
 }
+
 .section__categorias2-img:hover {
   transform: scale(1.03);
 }
+
 .section__categorias2-p {
   text-align: center;
   color: rgb(51, 51, 51);
   text-transform: uppercase;
   font-weight: 600;
 }
+
 .section__categorias2-p:hover {
   cursor: pointer;
-  color: rgba(210, 105, 30, 80%);
+  color: rgba(210, 105, 30, 0.8);
   transition: all 500ms;
 }
 
@@ -284,6 +319,7 @@ html {
   grid-template-rows: 1fr;
   margin-bottom: 130px;
 }
+
 .section__productos h4 {
   text-transform: uppercase;
   font-size: 30px;
@@ -292,6 +328,7 @@ html {
   margin-bottom: 0;
   font-weight: 650;
 }
+
 .section__productos-productos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -299,116 +336,140 @@ html {
   text-align: center;
   justify-items: center;
 }
+
 .section__productos-productos-1 {
   width: 250px;
   height: auto;
 }
+
 .section__productos-productos-1-img {
   transition: transform 0.5s;
   width: 16rem;
 }
+
 .section__productos-productos-1-img:hover {
   transform: scale(1.05);
 }
+
 .section__productos-productos-1-title {
   text-transform: capitalize;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
   margin-top: 5px;
 }
+
 .section__productos-productos-1-title:hover {
   cursor: pointer;
-  color: rgba(210, 105, 30, 80%);
+  color: rgba(210, 105, 30, 0.8);
   transition: all 500ms;
 }
+
 .section__productos-productos-1-precio {
   font-weight: bolder;
   margin-top: 5px;
   text-align: center;
   margin-bottom: 0;
 }
+
 .section__productos-productos-2 {
   width: 250px;
   height: auto;
 }
+
 .section__productos-productos-2-img {
   transition: transform 0.5s;
   width: 16rem;
 }
+
 .section__productos-productos-2-img:hover {
   transform: scale(1.05);
 }
+
 .section__productos-productos-2-title {
   text-transform: capitalize;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
   margin-top: 5px;
 }
+
 .section__productos-productos-2-title:hover {
   cursor: pointer;
-  color: rgba(210, 105, 30, 80%);
+  color: rgba(210, 105, 30, 0.8);
   transition: all 500ms;
 }
+
 .section__productos-productos-2-precio {
   font-weight: bolder;
   margin-top: 5px;
   text-align: center;
   margin-bottom: 0;
 }
+
 .section__productos-productos-3 {
   width: 250px;
   height: auto;
 }
+
 .section__productos-productos-3-img {
   transition: transform 0.5s;
   width: 16rem;
 }
+
 .section__productos-productos-3-img:hover {
   transform: scale(1.05);
 }
+
 .section__productos-productos-3-title {
   text-transform: capitalize;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
   margin-top: 5px;
 }
+
 .section__productos-productos-3-title:hover {
   cursor: pointer;
-  color: rgba(210, 105, 30, 80%);
+  color: rgba(210, 105, 30, 0.8);
   transition: all 500ms;
 }
+
 .section__productos-productos-3-precio {
   font-weight: bolder;
   margin-top: 5px;
   text-align: center;
   margin-bottom: 0;
 }
+
 .section__productos-productos-4 {
   width: 250px;
   height: auto;
 }
+
 .section__productos-productos-4-img {
   transition: transform 0.5s;
   width: 16rem;
 }
+
 .section__productos-productos-4-img:hover {
   transform: scale(1.05);
 }
+
 .section__productos-productos-4-title {
   text-transform: capitalize;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
   margin-top: 5px;
 }
+
 .section__productos-productos-4-title:hover {
   cursor: pointer;
-  color: rgba(210, 105, 30, 80%);
+  color: rgba(210, 105, 30, 0.8);
   transition: all 500ms;
 }
+
 .section__productos-productos-4-precio {
   font-weight: bolder;
   margin-top: 5px;
@@ -424,6 +485,7 @@ html {
   margin-bottom: 25px;
   font-weight: 700;
 }
+
 .nosotros__box {
   display: flex;
   font-size: 20px;
@@ -431,90 +493,101 @@ html {
   margin: auto;
   gap: 15px;
 }
+
 .nosotros__box1 {
   border: #333 2px solid;
   border-radius: 5px;
-  padding: 20px;
-  background-image: url(./multimedia/marco.png);
+  padding: 15px 25px;
+  background-image: url(../multimedia/marco.png);
   background-size: cover;
   background-position: center;
   box-shadow: 5px 5px 5px black;
   width: 90%;
   height: auto;
 }
-.nosotros__box1-h5 {
+
+.nosotros__box1-title {
   text-transform: uppercase;
   margin-bottom: 10px;
   font-weight: 700;
 }
+
 .nosotros__box1-p {
   font-size: 18px;
 }
+
 .nosotros__box2 {
   border: #333 2px solid;
   border-radius: 5px;
-  padding: 20px;
-  background-image: url(./multimedia/marco.png);
+  padding: 15px 25px;
+  background-image: url(../multimedia/marco.png);
   background-size: cover;
   background-position: center;
   box-shadow: 5px 5px 5px black;
   width: 90%;
   height: auto;
 }
-.nosotros__box2-h5 {
+
+.nosotros__box2-title {
   text-transform: uppercase;
   margin-bottom: 10px;
   font-weight: 700;
 }
+
 .nosotros__box2-p {
   font-size: 18px;
 }
+
 .nosotros__box3 {
   border: #333 2px solid;
   border-radius: 5px;
-  padding: 20px;
-  background-image: url(./multimedia/marco.png);
+  padding: 15px 25px;
+  background-image: url(../multimedia/marco.png);
   background-size: cover;
   background-position: center;
   box-shadow: 5px 5px 5px black;
   width: 90%;
   height: auto;
 }
-.nosotros__box3-h5 {
+
+.nosotros__box3-title {
   text-transform: uppercase;
   margin-bottom: 10px;
   font-weight: 700;
 }
+
 .nosotros__box3-p {
   font-size: 18px;
 }
+
 .prefooter {
   min-height: 600px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "img1 img2"
-    "img1 img3";
+  grid-template-areas: "img1 img2" "img1 img3";
   gap: 25px;
   width: 70%;
   margin: auto;
   margin-top: 75px;
 }
+
 .prefooter1 {
-  background-image: url(./multimedia/cuchilleriaguaschesca2.jpg);
+  background-image: url(../multimedia/cuchilleriaguaschesca2.jpg);
   background-position: center;
   background-size: cover;
   grid-area: img1;
 }
+
 .prefooter2 {
-  background-image: url(./multimedia/cuchilleriagauschesca.jpg);
+  background-image: url(../multimedia/cuchilleriagauschesca.jpg);
   background-position: center;
   background-size: cover;
   grid-area: img2;
 }
+
 .prefooter3 {
-  background-image: url(./multimedia/cuchilleriaguaschesca3.jpg);
+  background-image: url(../multimedia/cuchilleriaguaschesca3.jpg);
   background-position: center;
   background-size: cover;
   grid-area: img3;
@@ -526,198 +599,342 @@ html {
   display: grid;
   padding: 50px 0;
 }
+
 .footer__elementos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 2fr;
   width: 85%;
   margin: auto;
 }
+
 .footer__subtitles1 {
   margin-top: 35px;
 }
+
 .footer__subtitles1-title {
   color: white;
   font-weight: 600;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
+
 .footer__subtitles1-title-sub1 {
-  color: rgba(255, 255, 255, 80%);
+  color: rgba(255, 255, 255, 0.8);
   line-height: 30px;
   margin-bottom: 0;
 }
+
 .footer__subtitles1-title-sub1:hover {
   cursor: pointer;
   color: #f0990c;
   transition: all 500ms;
 }
+
 .footer__subtitles1-title-sub2 {
-  color: rgba(255, 255, 255, 80%);
+  color: rgba(255, 255, 255, 0.8);
 }
+
 .footer__subtitles1-title-sub2:hover {
   cursor: pointer;
   color: #f0990c;
   transition: all 500ms;
 }
+
 .footer__subtitles2 {
   margin-top: 35px;
 }
+
 .footer__subtitles2-title {
   color: white;
   font-weight: 600;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
+
 .footer__subtitles2-title-sub1 {
-  color: rgba(255, 255, 255, 80%);
+  color: rgba(255, 255, 255, 0.8);
   line-height: 30px;
 }
+
 .footer__subtitles2-title-sub1 p {
   margin-bottom: 0;
 }
+
 .footer__subtitles2-title-sub1:hover {
   color: #f0990c;
   transition: all 500ms;
   text-decoration: none;
 }
+
 .footer__subtitles2-title-sub2 {
-  color: rgba(255, 255, 255, 80%);
+  color: rgba(255, 255, 255, 0.8);
 }
+
 .footer__subtitles2-title-sub2:hover {
   color: #f0990c;
   transition: all 500ms;
   text-decoration: none;
 }
+
 .footer__subtitles3 {
   margin-top: 35px;
 }
+
 .footer__subtitles3-title {
   color: white;
   font-weight: 600;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
+
 .footer__subtitles3-title-sub1 {
-  color: rgba(255, 255, 255, 80%);
+  color: rgba(255, 255, 255, 0.8);
   line-height: 30px;
   margin-bottom: 0;
 }
+
 .footer__subtitles3-title-sub2 {
-  color: rgba(255, 255, 255, 80%);
+  color: rgba(255, 255, 255, 0.8);
   line-height: 30px;
   margin-bottom: 0;
 }
+
 .footer__subtitles3-title-sub3 {
-  color: rgba(255, 255, 255, 80%);
+  color: rgba(255, 255, 255, 0.8);
   line-height: 30px;
   margin-bottom: 0;
 }
+
 .footer__redessociales {
   color: white;
   font-size: 30px;
   display: flex;
+  justify-content: center;
   gap: 25px;
-  margin-left: 105px;
+  margin-top: 50px;
 }
+
 .footer__copyright {
   text-align: center;
   color: white;
   margin-top: 45px;
 }
+
 .footer__copyright span {
   color: #f0990c;
   text-transform: uppercase;
 }
+
 .fa-brands:hover {
   color: #f0990c;
   cursor: pointer;
   transition: all 500ms;
 }
+
 .subir {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: rgba(210, 105, 30, 30%);
+  background-color: #d2691e4d;
   font-size: 20px;
   color: white;
   border-radius: 50%;
   padding: 10px;
 }
+
 .subir:hover {
-  background-color: rgb(177, 98, 42);
+  background-color: #b1622a;
+  color: white;
 }
 
 /* Fin estilos index */
 
-/* Inicio estilos nosotros */
-
-.container h1 {
-  font-size: 2rem;
-}
-.container__span {
-  font-weight: 550;
-}
-#container__nosotros1 {
-  z-index: -1;
-}
-#container__nosotros2 {
-  z-index: -1;
-}
-/* Fin estilos nosotros */
-
 /* Inicio estilos cuchillos */
-
 .cuchillos__title {
+  margin-top: 80px;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
-  text-align: center;
-  width: 25%;
+  width: 85%;
+  margin: auto;
 }
-#aside__cuchillos{
-  display: flex;
-  flex-direction: column;
-  gap: 100px;
-  z-index: -1;
-  align-items: center;
-}
-#container__cuchillos{
+
+#container__cuchillos {
   display: flex;
   flex-wrap: wrap;
-  gap: 35px;
-  z-index: -1;
   justify-content: center;
 }
+
 .main__productos__cuchillos {
   width: 250px;
-  height: auto;
 }
+
 .main__productos__cuchillos img {
   width: 15rem;
 }
+
 .main__productos__cuchillos-title {
   text-transform: capitalize;
   text-align: center;
 }
+
 .main__productos__cuchillos-title:hover {
   cursor: pointer;
-  color: rgba(210, 105, 30, 80%);
+  color: rgba(210, 105, 30, 0.8);
   transition: all 500ms;
 }
+
 .main__productos__cuchillos-precio {
   font-weight: bolder;
   margin-top: 5px;
   text-align: center;
 }
 
+#aside__cuchillos {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+}
+
 /* Fin estilos cuchillos */
+/* Inicio estilos otros-productos */
+.otrosproductos h2 {
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
 
-/* Inicio estilos otros otros-productos */
+.mates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
 
-/* Fin estilos otros otros-productos */
+.mates-1 {
+  width: 250px;
+}
+.mates-1 img {
+  width: 16rem;
+}
+.mates-1-title {
+  text-transform: capitalize;
+  text-align: center;
+}
+.mates-1-title:hover {
+  cursor: pointer;
+  color: rgba(210, 105, 30, 0.8);
+  transition: all 500ms;
+}
+.mates-1-precio {
+  font-weight: bolder;
+  text-align: center;
+}
 
+.mates-2 {
+  width: 250px;
+}
+.mates-2 img {
+  width: 16rem;
+}
+.mates-2-title {
+  text-transform: capitalize;
+  text-align: center;
+}
+.mates-2-title:hover {
+  cursor: pointer;
+  color: rgba(210, 105, 30, 0.8);
+  transition: all 500ms;
+}
+.mates-2-precio {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.mates-3 {
+  width: 250px;
+}
+.mates-3 img {
+  width: 16rem;
+}
+.mates-3-title {
+  text-transform: capitalize;
+  text-align: center;
+}
+.mates-3 .mates-3-title:hover {
+  cursor: pointer;
+  color: rgba(210, 105, 30, 0.8);
+  transition: all 500ms;
+}
+.mates-3-precio {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.mates-4 {
+  width: 250px;
+}
+.mates-4 img {
+  width: 16rem;
+}
+.mates-4-title {
+  text-transform: capitalize;
+  text-align: center;
+}
+.mates-4-title:hover {
+  cursor: pointer;
+  color: rgba(210, 105, 30, 0.8);
+  transition: all 500ms;
+}
+.mates-4 .mates-4-precio {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.mates-5 {
+  width: 250px;
+}
+.mates-5 img {
+  width: 16rem;
+}
+.mates-5-title {
+  text-transform: capitalize;
+  text-align: center;
+}
+.mates-5-title:hover {
+  cursor: pointer;
+  color: rgba(210, 105, 30, 0.8);
+  transition: all 500ms;
+}
+.mates-5 .mates-5-precio {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.mates-6 {
+  width: 250px;
+}
+.mates-6 img {
+  width: 16rem;
+}
+.mates-6-title {
+  text-transform: capitalize;
+  text-align: center;
+}
+.mates-6-title:hover {
+  cursor: pointer;
+  color: rgba(210, 105, 30, 0.8);
+  transition: all 500ms;
+}
+.mates-6 .mates-6-precio {
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* Fin estilos otros-productos */
 /* Inicio estilos contacto */
-
 .main__contacto {
   background-color: white;
   text-align: start;
@@ -725,9 +942,11 @@ html {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
+
 .main__contacto__form {
   padding-top: 80px;
 }
+
 .main__contacto__form h1 {
   font-size: 30px;
   text-transform: uppercase;
@@ -736,6 +955,7 @@ html {
   margin: auto;
   font-weight: 500;
 }
+
 .main__contacto__form form {
   display: flex;
   flex-direction: column;
@@ -743,18 +963,21 @@ html {
   width: 80%;
   margin: auto;
 }
+
 .main__contacto__form input {
   border-radius: 15px;
   padding: 12px;
   border: rgba(51, 51, 51, 0.178) solid 1px;
   box-shadow: 0 2px 2px rgb(221, 221, 221);
 }
+
 .main__contacto__form textarea {
   border-radius: 15px;
   padding: 12px;
   border: rgba(51, 51, 51, 0.178) solid 1px;
   box-shadow: 0 2px 2px rgb(221, 221, 221);
 }
+
 .enviar {
   background-color: #c59e5e;
   text-transform: uppercase;
@@ -763,32 +986,34 @@ html {
   margin-top: 50px;
   width: 20%;
 }
+
 .enviar:hover {
   background-color: #f0990c;
   cursor: pointer;
   transition: all 500ms;
 }
-.mapa {
-  text-align: center;
-  margin-top: 5rem;
-}
+
 .main__contacto__title {
   display: flex;
   flex-direction: column;
   padding-top: 35px;
 }
+
 .main__contacto__title-logo {
   width: 12rem;
 }
+
 .main__contacto__title-h2 {
   text-transform: uppercase;
   padding: 20px 10px;
 }
+
 .main__contacto__title-p {
   padding-left: 15px;
   color: rgba(51, 51, 51, 0.753);
   line-height: 25px;
 }
+
 .main__contacto__title-redes {
   letter-spacing: 8px;
   font-size: 25px;
@@ -799,34 +1024,42 @@ html {
   color: rgba(51, 51, 51, 0.753);
 }
 
+.mapa {
+  text-align: center;
+  margin-top: 5rem;
+}
 /* Fin estilos contacto */
-
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 1250px) {
   /* Inicio cuchillos */
-  .cuchillos__title{
-    width: 43%;
+  .cuchillos__title {
+    width: 85%;
+    margin: auto;
   }
   /* Fin cuchillos */
 }
-
 @media screen and (max-width: 1200px) {
   /* Inicio index */
   .main__envios-pagos {
     width: 100%;
   }
   /* Fin index */
-
   /* Inicio contacto */
   .enviar {
     width: 22%;
   }
   /* Fin contacto */
 }
-
+@media screen and (max-width: 1170px) {
+  /* Inicio cuchillos */
+  .cuchillos__title {
+    width: 72%;
+    margin: auto;
+  }
+  /* Fin cuchillos */
+}
 @media screen and (max-width: 1024px) {
   /* Inicio index */
   .main__envios-pagos {
-    width: 100%;
     font-size: 15px;
   }
   .section__categorias__title {
@@ -897,20 +1130,14 @@ html {
     width: 90%;
   }
   /* Fin index */
-
   /* Inicio contacto */
   .enviar {
     width: 25%;
   }
   /* Fin contacto */
 }
-
 @media screen and (max-width: 992px) {
   /* Inicio index */
-  .section__productos-productos {
-    width: 100%;
-    padding: 0;
-  }
   .section__productos-productos-1-img {
     width: 13rem;
   }
@@ -923,28 +1150,15 @@ html {
   .section__productos-productos-4-img {
     width: 13rem;
   }
-  .section__productos-productos-1-precio {
-    font-size: 14px;
-  }
-  .section__productos-productos-2-precio {
-    font-size: 14px;
-  }
-  .section__productos-productos-3-precio {
-    font-size: 14px;
-  }
-  .section__productos-productos-4-precio {
-    font-size: 14px;
-  }
-  .nosotros__box1-h5 {
+  .nosotros__box1-title {
     font-size: 18px;
   }
-  .nosotros__box2-h5 {
+  .nosotros__box2-title {
     font-size: 18px;
   }
-  .nosotros__box3-h5 {
+  .nosotros__box3-title {
     font-size: 18px;
   }
-
   .nosotros__box1-p {
     font-size: 16px;
   }
@@ -956,25 +1170,19 @@ html {
   }
   /* Fin index */
 }
-
 @media screen and (max-width: 980px) {
   /* Inicio index */
   .section__productos-productos {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .section__productos-productos-1-title {
-    font-size: 16px;
-  }
   /* Fin index */
-
   /* Inicio contacto */
   .enviar {
     width: 26%;
   }
   /* Fin contacto */
 }
-
 @media screen and (max-width: 950px) {
   /* Inicio index */
   .footer__elementos {
@@ -982,32 +1190,26 @@ html {
   }
   /* Fin index */
 }
-
 @media screen and (max-width: 928px) {
   /* Inicio index */
   .main__envios-pagos {
     font-size: 14px;
   }
   /* Fin index */
-
   /* Inicio contacto */
   .enviar {
     width: 28%;
   }
   /* Fin contacto */
 }
-
 @media screen and (max-width: 900px) {
   /* Inicio index */
   .footer__elementos {
     justify-items: center;
-  }
-  .footer__elementos {
     width: 100%;
   }
   /* Fin index */
 }
-
 @media screen and (max-width: 868px) {
   /* Inicio index */
   .main__envios-pagos-1 {
@@ -1022,10 +1224,7 @@ html {
   .prefooter {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas:
-      "img1"
-      "img2"
-      "img3";
+    grid-template-areas: "img1" "img2" "img3";
   }
   .prefooter1 {
     grid-area: img1;
@@ -1043,10 +1242,7 @@ html {
   .section__categorias {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr 3fr;
-    grid-template-areas:
-      "titulo"
-      "img1"
-      "img2";
+    grid-template-areas: "titulo" "img1" "img2";
   }
   .section__categorias__title {
     grid-area: titulo;
@@ -1073,20 +1269,12 @@ html {
     padding: 25px 40px;
   }
   /* Fin index */
-
-  /* Inicio cuchillos */
-  .cuchillos__title{
-    width: 65%;
-  }
-  /* Fin cuchillos */
-
   /* Inicio contacto */
   .enviar {
     width: 30%;
   }
   /* Fin contacto */
 }
-
 @media screen and (max-width: 810px) {
   /* Inicio index */
   .footer__elementos {
@@ -1102,22 +1290,30 @@ html {
     width: 80%;
   }
   /* Fin index */
-
   /* Inicio contacto */
   .enviar {
     width: 32%;
   }
   /* Fin contacto */
 }
+@media screen and (max-width: 760px) {
+  /* Inicio index */
+  .main__title{
+    display: none;
+  }
+  .main__subtitle{
+    display: none;
+  }
 
-@media screen and (max-width: 768px) {
+  /* Fin index */
   /* Inicio cuchillos */
-  .cuchillos__title{
+  .cuchillos__title {
     width: 100%;
+    margin: auto;
+    text-align: center;
   }
   /* Fin cuchillos */
 }
-
 @media screen and (max-width: 705px) {
   /* Inicio index */
   .main__envios-pagos-1 {
@@ -1130,7 +1326,6 @@ html {
     width: 85%;
   }
   /* Fin index */
-
   /* Inicio contacto */
   .enviar {
     width: 35%;
@@ -1155,7 +1350,6 @@ html {
     width: 100%;
   }
   /* Fin index */
-
   /* Inicio contacto */
   .main__contacto {
     grid-template-columns: 1fr;
@@ -1189,7 +1383,6 @@ html {
   }
   /* Fin index */
 }
-
 @media screen and (max-width: 590px) {
   /* Inicio index */
   .footer__elementos {
@@ -1197,22 +1390,13 @@ html {
     grid-template-areas: 1fr 1fr;
     width: 90%;
   }
-  .footer__redessociales {
-    margin-left: 30px;
-    margin-top: 35px;
-  }
-  .nosotros__box {
-    width: 100%;
-  }
   /* Fin index */
-
   /* Inicio contacto */
   .main__contacto__title {
     margin-left: 50px;
   }
   /* Fin contacto */
 }
-
 @media screen and (max-width: 550px) {
   /* Inicio index */
   .main__envios-pagos {
@@ -1225,11 +1409,7 @@ html {
   .prefooter {
     width: 90%;
   }
-  .footer__redessociales {
-    margin-left: 25px;
-  }
   /* Fin index */
-
   /* Inicio contacto */
   .main__contacto__title {
     margin-left: 45px;
@@ -1241,11 +1421,7 @@ html {
   .prefooter {
     width: 95%;
   }
-  .nosotros__box {
-    width: 100%;
-  }
   /* Fin index */
-
   /* Inicio contacto */
   .enviar {
     width: 25%;
@@ -1257,9 +1433,6 @@ html {
   .section__productos-productos {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
-  }
-  .footer__redessociales {
-    margin-left: 20px;
   }
   .main__img {
     display: none;
@@ -1273,7 +1446,6 @@ html {
   }
   /* Fin index */
 }
-
 @media screen and (max-width: 420px) {
   /* Inicio index */
   .main__envios-pagos {
@@ -1284,9 +1456,6 @@ html {
   }
   .section__categorias2-img {
     width: 23rem;
-  }
-  .nosotros__box {
-    width: 100%;
   }
   .nosotros__box1 {
     background-image: none;
@@ -1316,7 +1485,6 @@ html {
     min-height: 400px;
   }
   /* Fin index */
-
   /* Inicio contacto */
   .main__contacto__form h1 {
     width: 90%;
@@ -1332,7 +1500,6 @@ html {
   }
   /* Fin contacto */
 }
-
 @media screen and (max-width: 412px) {
   /* Inicio index */
   .aside__nosotros2 {
@@ -1357,11 +1524,7 @@ html {
   .footer__elementos {
     grid-template-columns: 1fr;
   }
-  .footer__redessociales {
-    margin-left: 15px;
-  }
   /* Fin index */
-
   /* Inicio contacto */
   .main__contacto__title {
     margin-left: 1px;
@@ -1381,7 +1544,14 @@ html {
   }
   /* Fin index */
 }
-
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes aparecer {
   0% {
     opacity: 0;
