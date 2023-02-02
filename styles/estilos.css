@@ -15,12 +15,12 @@
   border-bottom: inset 2px rgba(0, 0, 0, 0.075);
   z-index: 1;
 }
-.header .navbar {
-  padding: 0.5rem 1rem;
-}
-.header .navbar .navbar-light .navbar-nav .nav-link:hover {
+.header .navbar-light .navbar-nav .nav-link:hover {
   color: rgba(210, 105, 30, 0.8);
   transition: all 500ms;
+}
+.header .navbar {
+  padding: 0.5rem 1rem;
 }
 .header .navbar .logo {
   height: 4rem;
@@ -91,53 +91,76 @@
   transition: all 500ms;
 }
 
-.main__img {
-  width: 100%;
-  height: auto;
+.hero__back {
+  background-image: url(/multimedia/cuchilleria-tabla-picada-fulljpg.jpg);
+  background-position: center;
+  background-size: cover;
 }
-@media screen and (max-width: 480px) {
-  .main__img {
+@media screen and (max-width: 550px) {
+  .hero__back {
     display: none;
   }
 }
-
-.main__img2 {
-  display: none;
+.hero__back .hero__title {
+  font-weight: 600;
+  color: white;
+  font-size: 35px;
+  text-shadow: 2px 2px 2px #333;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 250px;
 }
-@media screen and (max-width: 480px) {
-  .main__img2 {
+.hero__back .hero__subtitle {
+  font-weight: 600;
+  color: white;
+  text-shadow: 2px 2px 2px #333;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 250px;
+}
+
+.hero__back2 {
+  display: none;
+  background-image: url(/multimedia/cuchillos-varios.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 550px) {
+  .hero__back2 {
     display: block;
     width: 100%;
   }
 }
-
-.main__title {
-  font-size: 60px;
+.hero__back2 .hero__title2 {
   font-weight: 600;
-  color: rgba(210, 105, 30, 0.8);
+  color: white;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px #333;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin-top: 25px;
-  letter-spacing: 5px;
-  text-shadow: 5px 5px 5px #333;
+  padding-top: 250px;
 }
-@media screen and (max-width: 760px) {
-  .main__title {
-    display: none;
-  }
-}
-
-.main__subtitle {
-  font-size: 40px;
+.hero__back2 .hero__subtitle2 {
   font-weight: 600;
-  color: rgba(210, 105, 30, 0.8);
-  margin-bottom: 35px;
+  color: white;
+  text-shadow: 2px 2px 2px #333;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  text-shadow: 3px 3px 3px #333;
-}
-@media screen and (max-width: 760px) {
-  .main__subtitle {
-    display: none;
-  }
+  padding-bottom: 250px;
 }
 
 .main__envios-pagos {
@@ -526,6 +549,16 @@
   width: 250px;
   height: auto;
 }
+@media screen and (max-width: 506px) {
+  .section__productos .section__productos-productos .section__productos-productos-1 {
+    width: 225px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section__productos .section__productos-productos .section__productos-productos-1 {
+    width: 250px;
+  }
+}
 .section__productos .section__productos-productos .section__productos-productos-1 .section__productos-productos-1-img {
   transition: transform 0.5s;
   width: 16rem;
@@ -569,6 +602,16 @@
 .section__productos .section__productos-productos .section__productos-productos-2 {
   width: 250px;
   height: auto;
+}
+@media screen and (max-width: 506px) {
+  .section__productos .section__productos-productos .section__productos-productos-2 {
+    width: 225px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section__productos .section__productos-productos .section__productos-productos-2 {
+    width: 250px;
+  }
 }
 .section__productos .section__productos-productos .section__productos-productos-2 .section__productos-productos-2-img {
   transition: transform 0.5s;
@@ -614,6 +657,16 @@
   width: 250px;
   height: auto;
 }
+@media screen and (max-width: 506px) {
+  .section__productos .section__productos-productos .section__productos-productos-3 {
+    width: 225px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section__productos .section__productos-productos .section__productos-productos-3 {
+    width: 250px;
+  }
+}
 .section__productos .section__productos-productos .section__productos-productos-3 .section__productos-productos-3-img {
   transition: transform 0.5s;
   width: 16rem;
@@ -628,7 +681,7 @@
     width: 13rem;
   }
 }
-.section__productos .section__productos-productos .section__productos-productos-3 .section__productos-productos-3-img:hover .section__productos-productos-3-img:hover {
+.section__productos .section__productos-productos .section__productos-productos-3 .section__productos-productos-3-img:hover {
   transform: scale(1.05);
 }
 .section__productos .section__productos-productos .section__productos-productos-3 .section__productos-productos-3-title {
@@ -657,6 +710,16 @@
 .section__productos .section__productos-productos .section__productos-productos-4 {
   width: 250px;
   height: auto;
+}
+@media screen and (max-width: 506px) {
+  .section__productos .section__productos-productos .section__productos-productos-4 {
+    width: 225px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section__productos .section__productos-productos .section__productos-productos-4 {
+    width: 250px;
+  }
 }
 .section__productos .section__productos-productos .section__productos-productos-4 .section__productos-productos-4-img {
   transition: transform 0.5s;
@@ -1023,6 +1086,11 @@
     width: 90%;
   }
 }
+@media screen and (max-width: 394px) {
+  .footer .footer__elementos {
+    width: 95%;
+  }
+}
 @media screen and (max-width: 380px) {
   .footer .footer__elementos {
     grid-template-columns: 1fr;
@@ -1206,9 +1274,9 @@ html {
 .main__productos__cuchillos .main__productos__cuchillos-title {
   text-transform: capitalize;
   text-align: center;
+  cursor: pointer;
 }
 .main__productos__cuchillos .main__productos__cuchillos-title:hover {
-  cursor: pointer;
   color: rgba(210, 105, 30, 0.8);
   transition: all 500ms;
 }
@@ -1224,12 +1292,67 @@ html {
   gap: 100px;
   align-items: center;
 }
+#aside__cuchillos .publicidad1 {
+  overflow: hidden;
+}
+#aside__cuchillos .publicidad1 .publicidad1__img {
+  width: 100%;
+  transition: 0.5s;
+}
+#aside__cuchillos .publicidad1 .publicidad1__img:hover {
+  transform: scale(1.05);
+}
+#aside__cuchillos .publicidad2 {
+  overflow: hidden;
+}
+#aside__cuchillos .publicidad2 .publicidad2__img {
+  width: 100%;
+  transition: 0.5s;
+}
+#aside__cuchillos .publicidad2 .publicidad2__img:hover {
+  transform: scale(1.05);
+}
+#aside__cuchillos .publicidad3 {
+  overflow: hidden;
+}
+#aside__cuchillos .publicidad3 .publicidad3__img {
+  width: 100%;
+  transition: 0.5s;
+}
+#aside__cuchillos .publicidad3 .publicidad3__img:hover {
+  transform: scale(1.05);
+}
 
-.otrosproductos h2 {
-  margin-top: 50px;
+.otrosproductos .otrosproductos__title {
+  background-image: url(/multimedia/cuchilloindex5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 1px #333;
+}
+.otrosproductos .otrosproductos__title h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.otrosproductos .otrosproductos__title h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+}
+.otrosproductos h3 {
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
+  margin-top: 100px;
+  font-size: 32px;
 }
 .otrosproductos .mates {
   display: flex;
@@ -1716,7 +1839,7 @@ html {
     margin-left: 45px;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .main__contacto .main__contacto__title {
     margin-left: 12px;
   }

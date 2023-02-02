@@ -1,11 +1,40 @@
 .otrosproductos{
 
-    h2{
-        margin-top: 50px;
+    .otrosproductos__title{
+        background-image: url(/multimedia/cuchilloindex5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-shadow: 1px 1px 1px #333;
+
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+    
+        h2{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 20px;
+        }
+    }
+
+    h3{
         text-transform: uppercase;
         font-weight: 700;
         text-align: center;
+        margin-top: 100px;
+        font-size: 32px;
     }
+    
     .mates {
         display: flex;
         flex-wrap: wrap;

@@ -74,31 +74,41 @@
     }
 }
 @mixin mediaquery-17 {
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 506px) {
         @content;
     }
 }
 @mixin mediaquery-18 {
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 500px) {
         @content;
     }
 }
 @mixin mediaquery-19 {
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 480px) {
         @content;
     }
 }
 @mixin mediaquery-20 {
-    @media screen and (max-width: 412px) {
+    @media screen and (max-width: 420px) {
         @content;
     }
 }
 @mixin mediaquery-21 {
-    @media screen and (max-width: 380px) {
+    @media screen and (max-width: 412px) {
         @content;
     }
 }
 @mixin mediaquery-22 {
+    @media screen and (max-width: 394px) {
+        @content;
+    }
+}
+@mixin mediaquery-23 {
+    @media screen and (max-width: 380px) {
+        @content;
+    }
+}
+@mixin mediaquery-24 {
     @media screen and (max-width: 320px) {
         @content;
     }

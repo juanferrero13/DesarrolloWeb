@@ -34,9 +34,9 @@
     .main__productos__cuchillos-title {
         text-transform: capitalize;
         text-align: center;
+        cursor: pointer;
 
         &:hover{
-            cursor: pointer;
             color: $hoverColor1;
             transition: all 500ms;
         }
@@ -52,4 +52,41 @@
     flex-direction: column;
     gap: 100px;
     align-items: center;
+
+    .publicidad1{
+        overflow: hidden;
+
+        .publicidad1__img{
+            width: 100%;
+            transition: 0.5s;
+
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+    .publicidad2{
+        overflow: hidden;
+
+        .publicidad2__img{
+            width: 100%;
+            transition: 0.5s;
+
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+    .publicidad3{
+        overflow: hidden;
+
+        .publicidad3__img{
+            width: 100%;
+            transition: 0.5s;
+
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
 }

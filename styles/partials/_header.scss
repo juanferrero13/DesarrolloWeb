@@ -7,13 +7,13 @@
     border-bottom: inset 2px rgba(0, 0, 0, 0.075);
     z-index: 1;
 
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: $hoverColor1;
+        transition: all 500ms;
+    }
+
     .navbar {
     padding: 0.5rem 1rem;
-
-        .navbar-light .navbar-nav .nav-link:hover {
-            color: $hoverColor1;
-            transition: all 500ms;
-            }
 
         .logo {
             height: 4rem;
@@ -55,7 +55,7 @@
             flex-wrap: wrap;
             justify-content: center;
         }
-        @include mediaquery-20{
+        @include mediaquery-21{
             gap: 20px;
         }
 

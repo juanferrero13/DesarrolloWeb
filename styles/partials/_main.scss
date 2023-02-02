@@ -1,44 +1,76 @@
-.main__img {
-    width: 100%;
-    height: auto;
+.hero__back{
+    background-image: url(/multimedia/cuchilleria-tabla-picada-fulljpg.jpg);
+    background-position: center;
+    background-size: cover;
 
-    @include mediaquery-18{
+    @include mediaquery-16{
         display: none;
     }
-}
-.main__img2 {
-    display: none;
 
-    @include mediaquery-18{
+    .hero__title {
+        font-weight: 600;
+        color: white;
+        font-size: 35px;
+        text-shadow: 2px 2px 2px #333;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 250px;
+    
+    }
+    .hero__subtitle {
+        font-weight: 600;
+        color: white;
+        text-shadow: 2px 2px 2px #333;
+        font-size: 20px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 250px;
+    }
+}
+
+.hero__back2 {
+    display: none;
+    background-image: url(/multimedia/cuchillos-varios.jpeg);
+    background-position: center;
+    background-size: cover;
+
+    @include mediaquery-16{
         display: block;
         width: 100%;
     }
-}
-.main__title {
-    font-size: 60px;
-    font-weight: 600;
-    color: #d2691ecc;
-    text-align: center;
-    margin-top: 25px;
-    letter-spacing: 5px;
-    text-shadow: 5px 5px 5px #333;
 
-    @include mediaquery-11{
-        display: none;
+    .hero__title2 {
+        font-weight: 600;
+        color: white;
+        font-size: 25px;
+        text-shadow: 2px 2px 2px #333;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 250px;
+    }
+    .hero__subtitle2 {
+        font-weight: 600;
+        color: white;
+        text-shadow: 2px 2px 2px #333;
+        font-size: 16px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 250px;
     }
 }
-.main__subtitle {
-    font-size: 40px;
-    font-weight: 600;
-    color: #d2691ecc;
-    margin-bottom: 35px;
-    text-align: center;
-    text-shadow: 3px 3px 3px #333;
 
-    @include mediaquery-11{
-        display: none;
-    }
-}
 .main__envios-pagos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -67,13 +99,13 @@
     @include mediaquery-16{
         width: 40%;
     }
-    @include mediaquery-18{
+    @include mediaquery-19{
         width: 45%;
     }
-    @include mediaquery-19{
+    @include mediaquery-20{
         width: 50%;
     }
-    @include mediaquery-22{
+    @include mediaquery-24{
         width: 60%;
     }
 
@@ -245,10 +277,10 @@
             @include mediaquery-4{
                 width: 24rem;
             }
-            @include mediaquery-19{
+            @include mediaquery-20{
                 width: 23rem;
             }
-            @include mediaquery-22{
+            @include mediaquery-24{
                 width: 18rem;
             }
 
@@ -297,10 +329,10 @@
             @include mediaquery-4{
                 width: 24rem;
             }
-            @include mediaquery-19{
+            @include mediaquery-20{
                 width: 23rem;
             }
-            @include mediaquery-22{
+            @include mediaquery-24{
                 width: 18rem;
             }
 
@@ -363,7 +395,7 @@
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
         }
-        @include mediaquery-18{
+        @include mediaquery-19{
             grid-template-columns: 1fr;
             grid-template-rows: repeat(4, 1fr);
         }
@@ -371,6 +403,13 @@
         .section__productos-productos-1 {
             width: 250px;
             height: auto;
+
+            @include mediaquery-17{
+                width: 225px;        
+            }
+            @include mediaquery-19{
+                width: 250px;        
+            }
 
             .section__productos-productos-1-img {
                 transition: transform 0.5s;
@@ -414,6 +453,12 @@
         .section__productos-productos-2 {
             width: 250px;
             height: auto;
+            @include mediaquery-17{
+                width: 225px;        
+            }
+            @include mediaquery-19{
+                width: 250px;        
+            }
 
             .section__productos-productos-2-img {
                 transition: transform 0.5s;
@@ -457,6 +502,12 @@
         .section__productos-productos-3 {
             width: 250px;
             height: auto;
+            @include mediaquery-17{
+                width: 225px;        
+            }
+            @include mediaquery-19{
+                width: 250px;        
+            }
 
             .section__productos-productos-3-img {
                 transition: transform 0.5s;
@@ -470,9 +521,7 @@
                 }
 
                 &:hover{
-                    .section__productos-productos-3-img:hover {
-                        transform: scale(1.05);
-                    }
+                    transform: scale(1.05);
                 }
             }
             .section__productos-productos-3-title {
@@ -502,6 +551,12 @@
         .section__productos-productos-4 {
             width: 250px;
             height: auto;
+            @include mediaquery-17{
+                width: 225px;        
+            }
+            @include mediaquery-19{
+                width: 250px;        
+            }
 
             .section__productos-productos-4-img {
                 transition: transform 0.5s;
@@ -591,7 +646,7 @@
             @include mediaquery-9{
                 padding: 25px 40px;
             }
-            @include mediaquery-19{
+            @include mediaquery-20{
                 background-image: none;
                 border: 10px ridge #502d1a;
                 padding: 25px 25px;
@@ -631,7 +686,7 @@
             @include mediaquery-9{
                 padding: 25px 40px;
             }
-            @include mediaquery-19{
+            @include mediaquery-20{
                 background-image: none;
                 border: 10px ridge #502d1a;
                 padding: 25px 25px;
@@ -671,7 +726,7 @@
             @include mediaquery-9{
                 padding: 25px 40px;
             }
-            @include mediaquery-19{
+            @include mediaquery-20{
                 background-image: none;
                 border: 10px ridge #502d1a;
                 padding: 25px 25px;
@@ -718,7 +773,7 @@
     @include mediaquery-16{
         width: 90%;
     }
-    @include mediaquery-17{
+    @include mediaquery-18{
         width: 95%;
     }
 
@@ -733,11 +788,11 @@
             min-height: 450px;
             background-position: center;
         }
-        @include mediaquery-19{
+        @include mediaquery-20{
             max-height: 400px;
             min-height: 400px;
         }
-        @include mediaquery-21{
+        @include mediaquery-23{
             max-height: 360px;
             min-height: 360px;
         }
@@ -752,11 +807,11 @@
             grid-area: img2;
             min-height: 450px;
         }
-        @include mediaquery-19{
+        @include mediaquery-20{
             max-height: 400px;
             min-height: 400px;
         }
-        @include mediaquery-21{
+        @include mediaquery-23{
             max-height: 360px;
             min-height: 360px;
         }
@@ -771,11 +826,11 @@
             grid-area: img3;
             min-height: 450px;
         }
-        @include mediaquery-19{
+        @include mediaquery-20{
             max-height: 400px;
             min-height: 400px;
         }
-        @include mediaquery-21{
+        @include mediaquery-23{
             max-height: 360px;
             min-height: 360px;
         }

@@ -31,7 +31,10 @@
             grid-template-areas: 1fr 1fr;
             width: 90%;
         }
-        @include mediaquery-21{
+        @include mediaquery-22{
+            width: 95%;
+        }
+        @include mediaquery-23{
             grid-template-columns: 1fr;
         }
 
