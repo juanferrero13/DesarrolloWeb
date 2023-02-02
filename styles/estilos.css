@@ -1083,7 +1083,7 @@
   .footer .footer__elementos {
     grid-template-columns: 1fr 1.5fr;
     grid-template-areas: 1fr 1fr;
-    width: 90%;
+    width: 95%;
   }
 }
 @media screen and (max-width: 394px) {
@@ -1101,6 +1101,11 @@
 }
 .footer .footer__elementos .footer__subtitles1 {
   margin-top: 35px;
+}
+@media screen and (max-width: 1170px) {
+  .footer .footer__elementos .footer__subtitles1 {
+    width: 90%;
+  }
 }
 .footer .footer__elementos .footer__subtitles1 .footer__subtitles1-title {
   color: white;
@@ -1324,7 +1329,7 @@ html {
 }
 
 .otrosproductos .otrosproductos__title {
-  background-image: url(/multimedia/cuchilloindex5.jpg);
+  background-image: url(../multimedia/cuchilloindex5.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

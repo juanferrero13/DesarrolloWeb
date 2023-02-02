@@ -29,7 +29,7 @@
         @include mediaquery-15{
             grid-template-columns: 1fr 1.5fr;
             grid-template-areas: 1fr 1fr;
-            width: 90%;
+            width: 95%;
         }
         @include mediaquery-22{
             width: 95%;
@@ -44,6 +44,10 @@
 
         .footer__subtitles1 {
             margin-top: 35px;
+
+            @include mediaquery-3{
+                width: 90%;
+            }
 
             .footer__subtitles1-title {
                 color: white;
